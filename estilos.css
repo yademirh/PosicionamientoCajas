@@ -9,18 +9,19 @@
 }
 .container{
     background-color: red;
-    overflow: hidden;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    text-align: center;
+    flex-direction: row-reverse;
 }
 
 .menu{
     background-color: blue;
-    float: left;
     width: 20%;
-    height: 40px;
 }
 .content{
     background-color: violet;
-    float: left;
     width: 80%;
 }
 .footer{
