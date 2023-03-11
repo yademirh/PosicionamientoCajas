@@ -1,31 +1,30 @@
 .wrapper{
     max-width: 1000px;
     margin: 20px auto;
+    display: grid;
+    grid-template-areas: 
+    'Header Header Header Header'
+    'Menu Content Content Content'
+    'Footer Footer Footer Footer';
 }
 .header{
     background-color: green;
     height: 60px;
-    
-}
-.container{
-    background-color: red;
-    display: flex;
-    height: 60px;
-    align-items: center;
-    text-align: center;
-    flex-direction: row-reverse;
+    grid-area: Header;
 }
 
 .menu{
     background-color: blue;
-    width: 20%;
+    height: 40px;
+    grid-area: Menu;
 }
 .content{
     background-color: violet;
-    width: 80%;
+    height: 40px;
+    grid-area: Content;
 }
 .footer{
     background-color: orange;
-    clear: both;
     height: 30px;
+    grid-area: Footer;
 }
