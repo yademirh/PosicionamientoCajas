@@ -1,0 +1,30 @@
+.wrapper{
+    max-width: 1000px;
+    margin: 20px auto;
+}
+.header{
+    background-color: green;
+    height: 60px;
+    
+}
+.container{
+    background-color: red;
+    overflow: hidden;
+}
+
+.menu{
+    background-color: blue;
+    float: left;
+    width: 20%;
+    height: 40px;
+}
+.content{
+    background-color: violet;
+    float: left;
+    width: 80%;
+}
+.footer{
+    background-color: orange;
+    clear: both;
+    height: 30px;
+}
